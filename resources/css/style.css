@@ -6,17 +6,16 @@
   padding-bottom: 10px;
 }
 .logo {
-  display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   color: MediumAquamarine
 }
 .My_Times {
+  color: MediumAquamarine
   margin-left: 10px;
 }
-nav {
-  display: inline-block;
+.navigation {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
