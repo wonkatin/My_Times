@@ -24,6 +24,28 @@
   font-size: 14px;
   font-weight: bold;
 }
+.main {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+.column.large {
+  display: flex;
+  width: 630px;
+  border: 1px solid black;
+}
+
+.column.medium {
+  display: flex;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.column.small {
+  display: flex;
+  width: 240px;
+  border: 1px solid black;
+}
 a {
   color: black;
   margin-left: 10px;
