@@ -2,6 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
 }
 .logo {
   display: flex;
@@ -10,10 +12,17 @@
   font-weight: bold;
   color: MediumAquamarine
 }
+.My_Times {
+  margin-left: 10px;
+}
 nav {
   display: inline-block;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  justify-self: flex-end;
+}
+a {
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
 }
