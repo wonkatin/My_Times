@@ -4,15 +4,18 @@
   align-items: center;
   border-bottom: 1px solid black;
   padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .logo {
+  display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  color: MediumAquamarine
+  color: MediumAquamarine;
 }
 .My_Times {
-  color: MediumAquamarine
+  color: MediumAquamarine;
   margin-left: 10px;
 }
 .navigation {
