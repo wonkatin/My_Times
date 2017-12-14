@@ -63,22 +63,38 @@ header {
 .column.small {
     width: 240px;
 }
-
+.image {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
 .mother {
+  background-image: url(../images/img-story-main.jpg);
+  font-size: 40px;
 
 }
 .earth {
+  justify-content: center;
+  background-image: url(../images/img-story-2.jpg);
 
 }
 .research {
+  justify-content: center;
+  background-image: url(../images/img-story-3.jpg);
 
 }
 .cats {
+  justify-content: center;
+  background-image: url(../images/img-story-1.jpg);
 
 }
 
 p {
-
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 h2 {
 
