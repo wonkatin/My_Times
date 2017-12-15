@@ -155,8 +155,9 @@ header {
   padding-right: 30px;
   margin-right: 20px;
 }
-.navigationfooter {
-
+.copyright p {
+  font-family: Verdana;
+  font-size: 12px;
 }
 p {
   font-family: Georgia;
