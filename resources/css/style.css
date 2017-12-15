@@ -63,8 +63,15 @@ header {
 .column.small {
     width: 240px;
 }
+.content h2 {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+}
 .image {
   display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -74,10 +81,18 @@ header {
   margin-top: 20px;
 }
 .mother {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-image: url(../images/img-story-main.jpg);
   font-size: 40px;
   text-align: left;
 
+}
+.mother.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .earth {
   justify-content: center;
