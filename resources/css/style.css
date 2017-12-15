@@ -130,6 +130,34 @@ header {
   border-bottom: 1px solid black;
   padding: 10px 20px;
 }
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 300px;
+  width: 100%;
+}
+.MyTimesFooter{
+  display: flex;
+  flex-direction: row;
+}
+.MyTimesFooter span {
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 30px;
+  margin-right: 20px;
+}
+.navigationfooter {
+
+}
 p {
   font-family: Georgia;
   font-size: 17px;
@@ -144,5 +172,4 @@ a {
   margin-right: 10px;
 }
 div{
-
 }
